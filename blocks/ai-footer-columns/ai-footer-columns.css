@@ -1,0 +1,33 @@
+.ai-footer-columns > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-footer-columns img {
+  width: 100%;
+}
+
+.ai-footer-columns > div > div {
+  order: 1;
+}
+
+.ai-footer-columns > div > .ai-footer-columns-img-col {
+  order: 0;
+}
+
+.ai-footer-columns > div > .ai-footer-columns-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .ai-footer-columns > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .ai-footer-columns > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
