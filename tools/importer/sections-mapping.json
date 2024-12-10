@@ -1,0 +1,385 @@
+{
+  "url": "https://www.knorr.com/uk/home.html",
+  "sanitizedPath": "/uk/home",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id-229446221",
+              "x": 729,
+              "y": 0,
+              "width": 1440,
+              "height": 140,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"primary-header\")/div[@class=\"tabimage image\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"primary-header\")/div[@class=\"globalnavigation tabs globalnavigation--normal\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.4)",
+              "mapping": "header",
+              "customBlockName": "header"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/uk/home",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id--814198897",
+              "x": 729,
+              "y": 140,
+              "width": 1440,
+              "height": 600,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "hero",
+              "customBlockName": "ai-hero"
+            },
+            {
+              "id": "box-id--701854558",
+              "x": 849,
+              "y": 816,
+              "width": 1200,
+              "height": 52,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-text-looking-for"
+            },
+            {
+              "id": "box-id--1689548606",
+              "x": 729,
+              "y": 816,
+              "width": 1440,
+              "height": 358,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"list-be498d4aa2\")/div[@class=\"pagelist-wrapper\"]/div[@class=\"pagelist-header\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]/div[2]/div[1]/ul[1]",
+                  "xpathWithDetails": "id(\"list-be498d4aa2\")/div[@class=\"pagelist-wrapper\"]/ul[@class=\"cmp-list pageList\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "cards",
+              "customBlockName": "ai-cards-1"
+            },
+            {
+              "id": "box-id--1689548575",
+              "x": 729,
+              "y": 1174,
+              "width": 1440,
+              "height": 68,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[4]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-text-search-recipes"
+            },
+            {
+              "id": "box-id--1689548544",
+              "x": 729,
+              "y": 1243,
+              "width": 1440,
+              "height": 236,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/input[1]",
+                  "xpathWithDetails": "id(\"input-label-\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/button[2]",
+                  "xpathWithDetails": "id(\"main-content\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"searchinput searchbar search-input-only aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"modal-search\"]/div[@class=\"modal-body\"]/div[@class=\"searchbar search-result-input\"]/div[@class=\"searchbar-container\"]/div[@class=\"search-bar\"]/button[@class=\"search-bar-btn-handler\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-search-box"
+            },
+            {
+              "id": "box-id--1689548513",
+              "x": 729,
+              "y": 1479,
+              "width": 1440,
+              "height": 184,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-favorite-recipes"
+            },
+            {
+              "id": "box-id--1689548482",
+              "x": 729,
+              "y": 1664,
+              "width": 1440,
+              "height": 564,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 1
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-images"
+            },
+            {
+              "id": "box-id--1689548451",
+              "x": 729,
+              "y": 2228,
+              "width": 1440,
+              "height": 110,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-button"
+            },
+            {
+              "id": "box-id--1443707334",
+              "x": 849,
+              "y": 2338,
+              "width": 1200,
+              "height": 52,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[2]/div[1]/div[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-discover-range"
+            },
+            {
+              "id": "box-id--1689548420",
+              "x": 729,
+              "y": 2338,
+              "width": 1440,
+              "height": 596,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 3
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[2]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"productlist-d95bb36ad6\")/div[@class=\"product-listing-content-wrapper\"]/div[@class=\"list-item-wrapper\"]/div[@class=\"list-card-filter-wrapper\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[2]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"productlist-d95bb36ad6\")/div[@class=\"product-listing-content-wrapper\"]/div[@class=\"list-item-wrapper\"]/div[@class=\"list-card\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[2]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"productlist-d95bb36ad6\")/div[@class=\"product-listing-content-wrapper\"]/div[@class=\"list-item-wrapper\"]/div[@class=\"product-listing-bottom-wrapper\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "cards",
+              "customBlockName": "ai-cards-2"
+            },
+            {
+              "id": "box-id--836402458",
+              "x": 729,
+              "y": 2899,
+              "width": 1440,
+              "height": 110,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-button"
+            },
+            {
+              "id": "box-id--836402427",
+              "x": 729,
+              "y": 3009,
+              "width": 1440,
+              "height": 164,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-see-more"
+            },
+            {
+              "id": "box-id--836402396",
+              "x": 729,
+              "y": 3173,
+              "width": 1440,
+              "height": 360,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[12]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "carousel",
+              "customBlockName": "ai-carousel"
+            },
+            {
+              "id": "box-id--836402365",
+              "x": 729,
+              "y": 3533,
+              "width": 1440,
+              "height": 830,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[13]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[13]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"container-56d2c2d761\")/div[@class=\"text text-no-padding text-no-padding-top no-padding-around\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[13]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"container-56d2c2d761\")/div[@class=\"button small-margin-bottom\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-sign-up-block"
+            },
+            {
+              "id": "box-id--836402334",
+              "x": 729,
+              "y": 4364,
+              "width": 1440,
+              "height": 116,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[14]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-footnote"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id--807450371",
+              "x": 729,
+              "y": 4480,
+              "width": 1440,
+              "height": 224,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[3]",
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"footer-main-container\")/div[@class=\"text footer-links\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"footer-main-container\")/div[@class=\"text footer-links\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"footer-main-container\")/div[@class=\"text footer-social-links\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"footer-main-container\")/div[@class=\"languagenavigation\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "ai-footer-columns"
+            },
+            {
+              "id": "box-id--807450340",
+              "x": 729,
+              "y": 4704,
+              "width": 1440,
+              "height": 68,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[4]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-chat-bot"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
