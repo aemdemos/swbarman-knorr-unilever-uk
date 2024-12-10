@@ -262,21 +262,6 @@
               "customBlockName": "ai-see-more"
             },
             {
-              "id": "box-id--836402396",
-              "x": 729,
-              "y": 3173,
-              "width": 1440,
-              "height": 360,
-              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[12]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgba(148, 0, 211, 0.3)",
-              "mapping": "carousel",
-              "customBlockName": "ai-carousel"
-            },
-            {
               "id": "box-id--836402365",
               "x": 729,
               "y": 3533,
