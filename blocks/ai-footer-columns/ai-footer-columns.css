@@ -1,33 +1,84 @@
-.ai-footer-columns > div {
-  display: flex;
-  flex-direction: column;
+
+.ai-footer-columns-wrapper {
+  background-color: #007A33; /* Set the green background color */
+  padding: 20px; /* Optional: for spacing */
 }
 
-.ai-footer-columns img {
-  width: 100%;
+.ai-footer-columns {
+  display: flex;
+  flex-direction: row; /* Ensure the columns are side by side */
+  justify-content: space-between; /* Distribute space evenly between columns */
+}
+
+.ai-footer-columns > div {
+  flex: 1; /* Each column takes equal width */
+  margin: 0 10px; /* Optional: for spacing between columns */
+  display: flex;
+  flex-direction: column; /* Ensure internal elements are aligned vertically */
 }
 
 .ai-footer-columns > div > div {
-  order: 1;
+  display: flex;
+  flex-direction: column; /* Ensure internal elements are aligned vertically */
 }
 
-.ai-footer-columns > div > .ai-footer-columns-img-col {
-  order: 0;
+.ai-footer-columns h2 {
+  color: white; /* White text for titles */
+  margin-bottom: 10px; /* Space between title and list */
 }
 
-.ai-footer-columns > div > .ai-footer-columns-img-col img {
-  display: block;
+.ai-footer-columns ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-@media (width >= 900px) {
-  .ai-footer-columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+.ai-footer-columns ul li {
+  color: white; /* White text for list items */
+  margin-bottom: 5px; /* Space between list items */
+}
+
+.ai-footer-columns ul li a {
+  text-decoration: none;
+  color: white; /* White text for links */
+}
+
+.ai-footer-columns ul li a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+.ai-footer-columns .button-container {
+  margin-bottom: 10px; /* Space between button and icons */
+}
+
+.ai-footer-columns-container > .ai-footer-columns-wrapper > .block.ai-footer-columns .button {
+  display: inline-block; /* Ensure button takes only needed width */
+  background-color: white; /* White background for button */
+  color: #007A33; /* Green text for button */
+  border: none;
+  padding: 10px 20px; /* Optional: for spacing */
+  border-radius: 5px; /* Optional: for rounded corners */
+  width: auto; /* Ensure button width does not stretch */
+}
+
+.ai-footer-columns .button-container + ul {
+  display: flex;
+  flex-direction: row; /* Ensure icons are aligned side by side */
+  gap: 10px; /* Space between icons */
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 900px) {
+  .ai-footer-columns {
+    display: flex;
+    flex-direction: row; /* Ensure the columns are side by side */
+    justify-content: space-between; /* Distribute space evenly between columns */
   }
 
-  .ai-footer-columns > div > div {
-    flex: 1;
-    order: unset;
+  .ai-footer-columns > div {
+    align-items: flex-start;
+    flex-direction: row; /* Ensure internal elements are aligned side by side */
+    gap: 24px;
   }
 }

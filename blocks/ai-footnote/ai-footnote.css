@@ -1,0 +1,50 @@
+
+.ai-footnote-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  max-width: unset;
+  padding: 0;
+}
+
+.ai-footnote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ai-footnote > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+.ai-footnote > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+.ai-footnote > div > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+.ai-footnote p {
+  text-align: center;
+  margin: 0;
+  width: 100%; /* Ensuring full width for proper centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

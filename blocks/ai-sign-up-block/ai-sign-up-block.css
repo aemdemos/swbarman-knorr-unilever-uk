@@ -1,0 +1,85 @@
+
+/* Override default padding and max-width */
+.ai-sign-up-block-container > .ai-sign-up-block-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.ai-sign-up-block-wrapper {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-sign-up-block-wrapper::before,
+.ai-sign-up-block-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ai-sign-up-block-wrapper::before {
+  top: -50px;
+  left: -50%;
+}
+
+.ai-sign-up-block-wrapper::after {
+  bottom: -50px;
+  left: -50%;
+}
+
+.ai-sign-up-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full height for centering */
+}
+
+.ai-sign-up-block > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  max-width: 80%;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.ai-sign-up-block h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  word-break: break-word;
+  max-width: 100%;
+  padding: 0 10px;
+  line-height: 1.2; /* Adjusted line height for better spacing */
+}
+
+.ai-sign-up-block p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.ai-sign-up-block .button-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.ai-sign-up-block-container > .ai-sign-up-block-wrapper > .block.ai-sign-up-block .button {
+  display: inline-block;
+  background-color: white;
+  color: green;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px; /* Adjusted margin for better spacing */
+}

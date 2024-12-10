@@ -1,0 +1,89 @@
+
+.ai-images-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between the cards and the central image */
+    background-color: var(--background-color); /* Assuming white background for the block */
+    padding: 20px;
+}
+
+.ai-images-wrapper > .ai-images {
+    display: flex;
+    flex-direction: row; /* Ensure top-level elements are side by side */
+    gap: 20px; /* Adjust the gap between the cards and the central image */
+}
+
+.ai-images-wrapper > .ai-images > div {
+    display: flex;
+    flex-direction: column; /* Ensure elements inside each div are stacked */
+    justify-content: space-between;
+    background-color: var(--background-color); /* Assuming white background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as necessary */
+}
+
+.ai-images-wrapper > .ai-images > div:first-child {
+    background: linear-gradient(to bottom, red 50%, white 50%);
+}
+
+.ai-images-wrapper > .ai-images > div:nth-child(2) {
+    background: var(--background-color); /* Ensure central image is on a white background */
+    align-items: center; /* Center the central image */
+    width: auto; /* Adjust width for central image */
+    padding: 0; /* Remove padding for the central image div */
+}
+
+.ai-images-wrapper > .ai-images > div:nth-child(3) {
+    background: linear-gradient(to bottom, teal 50%, white 50%);
+}
+
+.ai-images-wrapper > .ai-images h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: var(--text-color); /* Ensure text color contrasts well with background */
+    text-align: left; /* Align text to the left */
+}
+
+.ai-images-wrapper > .ai-images picture {
+    display: block;
+    margin: 10px auto; /* Center images */
+    width: 100%;
+    max-width: 200px; /* Adjust based on the desired image size */
+}
+
+.ai-images-wrapper > .ai-images ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ai-images-wrapper > .ai-images ul > li {
+    margin-bottom: 10px;
+    color: var(--text-color); /* Ensure text color contrasts well with background */
+    text-align: left; /* Align text to the left */
+}
+
+.ai-images-wrapper > .ai-images ul ul {
+    display: flex;
+    flex-direction: column; /* Ensure elements inside each ul are stacked vertically */
+    gap: 5px;
+}
+
+.ai-images-wrapper > .ai-images .button {
+    background-color: white;
+    color: green;
+    border: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 2.4em;
+    margin-top: auto; /* Ensure button is at the bottom */
+}
+
+.ai-images-container > .ai-images-wrapper {
+    max-width: unset;
+    padding: 0;
+}

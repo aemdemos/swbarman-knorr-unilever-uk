@@ -1,0 +1,36 @@
+
+.ai-button-wrapper {
+  display: flex; /* Centers the button within the wrapper */
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center; /* Centers the button vertically */
+  height: auto; /* Adjusts height automatically based on content */
+  max-width: unset; /* Allows the content to span the entire width of the page */
+  padding: 0; /* Removes any padding around the block */
+}
+
+.ai-button-wrapper > .ai-button.block {
+  display: flex; /* Ensures the button container takes up only as much space as needed */
+  justify-content: center; /* Centers the button horizontally within this element */
+  align-items: center; /* Centers the button vertically within this element */
+  flex-direction: row; /* Ensures child elements are aligned side by side */
+}
+
+.ai-button-wrapper > .ai-button.block .button-container {
+  display: flex; /* Ensures the button itself is centered within this element */
+  justify-content: center; /* Centers the button horizontally within this element */
+  align-items: center; /* Centers the button vertically within this element */
+  flex-direction: row; /* Ensures child elements are aligned side by side */
+}
+
+.ai-button-wrapper > .ai-button.block .button-container .button {
+  background-color: #008000; /* Green background color */
+  color: #ffffff; /* White text color */
+  padding: 18px 36px; /* Adjusted padding inside the button for better height and width */
+  border-radius: 5px; /* Slightly less rounded corners */
+  text-align: center; /* Centers the text inside the button */
+  text-decoration: none; /* Removes the underline from the link */
+  font-weight: bold; /* Makes the text bold */
+  display: flex; /* Ensures the button's content is properly aligned */
+  justify-content: center; /* Centers the text horizontally within the button */
+  align-items: center; /* Centers the text vertically within the button */
+}

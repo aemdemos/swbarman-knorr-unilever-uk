@@ -1,0 +1,80 @@
+
+.ai-search-box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.ai-search-box-wrapper .ai-search-box.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px; /* Adjust width as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.ai-search-box-wrapper .ai-search-box.block > div {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.ai-search-box-wrapper .ai-search-box.block > div > div:first-child {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+}
+
+.ai-search-box-wrapper .ai-search-box.block > div > div:first-child p:nth-child(1) {
+  display: block;
+  margin: 0;
+  color: #131313; /* Ensure text is visible */
+  flex-grow: 1;
+  text-align: left;
+}
+
+.ai-search-box-wrapper .ai-search-box.block > div > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.ai-search-box-wrapper .ai-search-box.block > div > div:last-child p:nth-child(5) {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #008000;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.ai-search-box-wrapper .ai-search-box.block p {
+  display: none;
+}
+
+/* Adding icon before button text */
+.ai-search-box-wrapper .ai-search-box.block > div > div:last-child:before {
+  content: "\1F50D "; /* Unicode for magnifying glass icon */
+  font-size: 16px; /* Adjust size as needed */
+  margin-right: 5px;
+}
+
+/* Ensuring the button text is "Search" */
+.ai-search-box-wrapper .ai-search-box.block > div > div:last-child p:nth-child(5):before {
+  content: "Search";
+}

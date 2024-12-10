@@ -1,37 +1,65 @@
-.ai-hero-container .ai-hero-wrapper {
+
+.ai-hero-container > .ai-hero-wrapper {
   max-width: unset;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 300px;
+  position: relative;
   padding: 0;
 }
 
-.ai-hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block > div:nth-child(1) {
+  flex: 1;
+  order: 1;
+  background: url('./path-to-your-left-section-image.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ai-hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block > div:nth-child(2) {
+  flex: 1;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: flex-start; /* Align items to the start horizontally */
+  background: white;
+  padding: 20px;
+  background: linear-gradient(to bottom right, white, green); /* Smooth gradient transition */
 }
 
-.ai-hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ai-hero img {
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
-@media (width >= 900px) {
-  .ai-hero {
-    padding: 40px 32px;
-  }
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block h1 {
+  margin: 0;
+  padding-bottom: 20px; /* Added padding below text */
+  color: var(--background-color);
+  text-align: left; /* Align text to the left */
+}
+
+.ai-hero-container > .ai-hero-wrapper > .ai-hero.block .product-image {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
 }

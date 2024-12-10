@@ -1,0 +1,38 @@
+
+.ai-text-search-recipes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.ai-text-search-recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust width as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.ai-text-search-recipes > div > div {
+    display: flex;
+    flex-direction: row; /* Ensure children are side by side */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ai-text-search-recipes h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    color: green;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    text-align: center;
+    -webkit-font-smoothing: antialiased; /* Enable font smoothing */
+    -moz-osx-font-smoothing: grayscale; /* Enable font smoothing */
+}

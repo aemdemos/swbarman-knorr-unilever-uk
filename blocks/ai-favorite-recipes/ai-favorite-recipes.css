@@ -1,0 +1,31 @@
+
+.ai-favorite-recipes-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto; /* Ensure it adjusts to content height */
+  background-color: white; /* Background color */
+  padding: 20px 0; /* Adjust padding for better spacing */
+}
+
+.ai-favorite-recipes > div > div {
+  display: flex;
+  flex-direction: column; /* Stack elements on top of each other */
+  align-items: center; /* Center align elements horizontally */
+  text-align: center; /* Center the text inside the block */
+}
+
+.ai-favorite-recipes h2 {
+  font-size: 1.6em; /* Adjust size to match original image */
+  font-weight: bold; /* Bold font */
+  color: green; /* Title color */
+  margin-bottom: 10px; /* Adjust space between title and subtitle */
+}
+
+.ai-favorite-recipes p {
+  font-size: 1em; /* Adjust size to better match original image */
+  color: black; /* Subtitle color */
+  margin: 0; /* Reset margin to avoid unexpected spacing */
+  max-width: 800px; /* Ensuring text doesn't stretch too wide */
+  line-height: 1.5; /* Adjust line height to better match original image */
+}

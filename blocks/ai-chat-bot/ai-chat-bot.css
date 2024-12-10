@@ -1,0 +1,58 @@
+
+/* Ensure the block spans the entire width of the page */
+.ai-chat-bot-wrapper {
+    max-width: unset;
+    padding: 0;
+}
+
+/* Apply flexbox to the parent container */
+.ai-chat-bot-wrapper > .ai-chat-bot {
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+    background-color: #007a33;  /* Set the green background color */
+    padding: 10px;  /* Add some padding for spacing */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+/* Flex items should be side by side */
+.ai-chat-bot-wrapper > .ai-chat-bot > div {
+    display: flex;
+    align-items: center;  /* Vertically center the logo/image and text */
+    flex-direction: row;  /* Ensure items are side by side */
+}
+
+/* Placeholder for logo/image */
+.ai-chat-bot-wrapper > .ai-chat-bot > div::before {
+    content: '';  /* Empty content as a placeholder for the logo/image */
+    display: inline-block;
+    width: 50px; /* Adjust the width of the placeholder */
+    height: 50px; /* Adjust the height of the placeholder */
+    background-color: white; /* Set a contrasting background color */
+    margin-right: 10px;  /* Adjust spacing between the logo/image and the text */
+}
+
+/* Adjust the inner container if necessary */
+.ai-chat-bot-wrapper > .ai-chat-bot .button-container {
+    margin-left: 0;  /* No additional spacing needed */
+}
+
+/* Override button styles */
+.ai-chat-bot-wrapper > .ai-chat-bot .button {
+    color: white;  /* Ensure the text color is white for contrast */
+    text-decoration: none;  /* Remove underline from the link */
+    background-color: transparent; /* Remove blue background */
+    padding: 0; /* Remove padding inside the button */
+    border: none; /* Remove any border */
+    border-radius: 0; /* Remove rounded corners */
+    display: inline; /* Ensure the text is inline */
+}
+
+/* Ensure the text is aligned properly */
+.ai-chat-bot-wrapper > .ai-chat-bot .button-container p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Optional: Add hover effect for the link */
+.ai-chat-bot-wrapper > .ai-chat-bot .button:hover {
+    text-decoration: underline;
+}

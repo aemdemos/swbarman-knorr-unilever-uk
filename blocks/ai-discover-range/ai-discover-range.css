@@ -1,0 +1,33 @@
+
+.ai-discover-range-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Aligns the block content to the left */
+  align-items: center; /* Centers the block content vertically */
+  height: auto; /* Adjust this value as needed to fit the block's container */
+  padding: 0; /* Ensure no padding around the block */
+}
+
+.ai-discover-range {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: flex-start; /* Aligns the text to the left within the block */
+  align-items: center; /* Centers the text vertically within the block */
+  width: 100%; /* Adjust this value as needed to fit the block's container */
+}
+
+.ai-discover-range > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: flex-start; /* Ensures the inner content is aligned to the left */
+  align-items: center; /* Centers the inner content vertically */
+  width: 100%; /* Ensures the inner content takes the full width of the block */
+}
+
+.ai-discover-range h2 {
+  margin: 0; /* Removes default margin to ensure proper alignment */
+  padding: 0 10px; /* Adds horizontal padding to ensure proper spacing */
+  font-size: 3.8rem; /* Increase font size to match the original */
+  color: #006400; /* Matches the green color of the text in the image */
+  font-weight: bold; /* Ensures the text is bold */
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
